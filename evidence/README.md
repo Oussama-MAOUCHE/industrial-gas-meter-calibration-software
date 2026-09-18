@@ -35,8 +35,6 @@ The repository does not publish:
 - confidential factory data;
 - credentials or internal identifiers.
 
-## Evidence rule
+## Documentation basis
 
-Public claims must remain traceable to reviewed project material or confirmed first-hand project facts.
-
-Where proprietary source material is not suitable for publication, the portfolio describes the verified behavior and design without recreating or exposing the underlying private project files.
+The workflow and technical description in this repository are based on the reviewed project material and first-hand project context. Proprietary source files and raw operational data remain private.
