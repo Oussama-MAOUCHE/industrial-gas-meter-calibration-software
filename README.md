@@ -4,7 +4,7 @@ Desktop software developed for the calibration workflow of **Sagem G4 and G6 gas
 
 The previous software used with this bench had become unusable. I designed and developed a replacement application that restored the bench's software-assisted calibration workflow and allowed operators to resume work on that station. I also simplified the operator flow by consolidating the main calibration tasks into a single working screen instead of requiring repeated navigation across several windows.
 
-![Calibration application main screen](assets/calibration-main-screen.png)
+![Calibration application main screen](calibration-main-screen.png)
 
 ## Project context
 
