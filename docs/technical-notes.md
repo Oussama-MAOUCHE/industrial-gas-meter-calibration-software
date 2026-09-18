@@ -20,7 +20,7 @@ Observed input fields include:
 
 The interface provides a **Calculate** action and a **Save and Reset** action.
 
-The replacement design consolidated the main operator workflow into one working screen. According to the project author, the previous software required navigation through several windows to complete a calibration cycle; the new interface reduced that navigation by keeping the key entry, calculation, result and reset actions together.
+The replacement design consolidated the main operator workflow into one working screen. The previous software required navigation through several windows to complete a calibration cycle; the replacement interface reduced that navigation by keeping the key entry, calculation, result and reset actions together.
 
 Result areas include calculated error values and visual indicators associated with the correction result.
 
