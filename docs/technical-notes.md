@@ -2,18 +2,24 @@
 
 ## Application structure
 
-The surviving project contains parallel G4 and G6 branches with the same overall application structure. Both belong to the same calibration-software project family.
+The project contains parallel G4 and G6 branches with the same overall application structure. Both belong to the same calibration-software project family.
 
 The main workflow is represented by the calibration window and a statistics/history window.
 
+## Project chronology
+
+Project-specific artifacts begin in 2018. The G6 branch contains updates through 2019, while the G4 branch includes later project and interface updates through January 2021.
+
+These dates describe the surviving project artifacts; the case study does not use them as a performance or seniority claim.
+
 ## Main operator workflow
 
-The main screen accepts readings for multiple meter positions.
+The main screen supports multiple meter positions.
 
-Observed input fields include:
+The workflow includes:
 
-- meter number;
-- serial number;
+- meter position/number;
+- serial number, normally incremented automatically and manually adjustable when required;
 - initial index;
 - final index at Qmax;
 - final index at 0.2 Qmax.
@@ -28,34 +34,30 @@ Result areas include calculated error values and visual indicators associated wi
 
 The calibration process uses replaceable gear-wheel combinations to correct meters that advance or lag.
 
-The application was designed to:
+I designed and implemented the mathematical correction algorithm used by the application to:
 
-1. derive the meter error from the entered bench readings;
+1. derive the meter error from the bench readings;
 2. determine the applicable correction interval;
 3. associate that interval with a gear-wheel reference;
 4. present the result to the operator using numeric and visual cues.
 
-The mathematical algorithm was designed and implemented by the developer of this application.
+The exact WLanguage implementation is not reproduced in this public case study. The portfolio focuses on the verified workflow, design and selected evidence rather than reconstructing proprietary source code.
 
-The exact WLanguage implementation is not reproduced in this public case study. The surviving project is stored in WINDEV's native project format, and the portfolio focuses on the verified workflow, design and evidence rather than reconstructing source code.
+## Correction mapping
 
-## Correction mapping evidence
-
-A surviving spreadsheet maps:
+Original project material includes a mapping between:
 
 - wheel reference;
 - correction range;
 - display color.
 
-This supports the correction-guidance workflow represented by the application.
-
-The complete operational mapping is kept private rather than copied into the public repository.
+This supports the correction-guidance workflow represented by the application. The complete operational mapping remains private.
 
 ## Local data storage
 
-The project uses a local Microsoft Access database (`Data.mdb`).
+The application uses a local Microsoft Access database.
 
-The surviving data definition identifies fields corresponding to:
+The project data definition includes fields corresponding to:
 
 - date/time;
 - meter position;
@@ -70,14 +72,8 @@ This data supports calibration history and related operational/statistical use.
 
 The raw database is not published.
 
-## Evidence boundary
+## Scope and evidence boundary
 
-The portfolio documents the observable application design, supported workflow and surviving data structure.
+The public case study documents the application workflow, supported technical design and selected original evidence.
 
-It does not claim:
-
-- formal legal-metrology certification;
-- a specific quantified production increase;
-- a precise development duration;
-- source-code availability in a modern text/Git format;
-- that this test bench was the factory's only or main production resource.
+It does not claim formal legal-metrology certification or an unsupported factory-wide production KPI, and it does not publish raw operational data, proprietary project files or the complete correction mapping.
