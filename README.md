@@ -78,7 +78,7 @@ The bench was one of several calibration/testing resources in the factory, so th
 | Main stored data | date/time, meter position, indexes, calculated error, wheel reference, serial number |
 | Main workflow | readings → error/correction calculation → gear-wheel guidance → result display → save/history |
 
-The original project remains in WINDEV's native project format. This repository therefore focuses on the application workflow, technical design and selected evidence rather than republishing proprietary project files or reconstructing source code.
+The original WINDEV project is kept private. This repository documents the application workflow, technical design and selected project evidence.
 
 ## Evidence
 
@@ -97,6 +97,6 @@ See:
 - [Technical Notes](docs/technical-notes.md)
 - [Evidence & Confidentiality](evidence/README.md)
 
-## Scope note
+## Related application
 
-This case study covers the G4/G6 calibration application itself. A separate companion application for gear-wheel consumption and supply statistics is outside the scope of this repository.
+A separate companion application was developed for gear-wheel consumption and supply statistics. It is a distinct project and is not documented in this repository.
