@@ -10,7 +10,7 @@ The main workflow is represented by the calibration window and a statistics/hist
 
 Project-specific artifacts begin in 2018. The G6 branch contains updates through 2019, while the G4 branch includes later project and interface updates through January 2021.
 
-These dates describe the surviving project artifacts; the case study does not use them as a performance or seniority claim.
+These dates reflect the surviving project files and updates rather than a single release date.
 
 ## Main operator workflow
 
@@ -41,7 +41,7 @@ I designed and implemented the mathematical correction algorithm used by the app
 3. associate that interval with a gear-wheel reference;
 4. present the result to the operator using numeric and visual cues.
 
-The exact WLanguage implementation is not reproduced in this public case study. The portfolio focuses on the verified workflow, design and selected evidence rather than reconstructing proprietary source code.
+The original WLanguage implementation is kept private; this note describes the correction flow at a technical level.
 
 ## Correction mapping
 
@@ -72,8 +72,6 @@ This data supports calibration history and related operational/statistical use.
 
 The raw database is not published.
 
-## Scope and evidence boundary
+## Documentation scope
 
-The public case study documents the application workflow, supported technical design and selected original evidence.
-
-It does not claim formal legal-metrology certification or an unsupported factory-wide production KPI, and it does not publish raw operational data, proprietary project files or the complete correction mapping.
+The repository documents the application workflow, technical design and selected project evidence. Raw operational data, the native project files and the complete correction mapping remain private.
