@@ -1,25 +1,25 @@
 # Evidence & Confidentiality
 
+This case study is based on original project artifacts together with factual context from the developer who designed and built the application.
+
 ## Evidence reviewed
 
-The case study is based on surviving project material rather than reconstructed claims.
-
-Reviewed evidence includes:
+Reviewed material includes:
 
 - G4 and G6 WINDEV project branches;
 - the main calibration-screen image;
-- WINDEV project/window/data-definition files;
-- `Data.mdb`;
+- WINDEV project, window and data-definition files;
+- the local Microsoft Access database;
 - the gear-wheel correction spreadsheet;
 - project backup/history artifacts;
-- project-author confirmation of the business context, authorship and correction algorithm.
+- confirmed project context, authorship and correction-algorithm responsibility.
 
 ## Public evidence
 
-The repository may publish:
+The repository publishes only selected material needed to explain the project:
 
 - the clean main application screenshot;
-- high-level workflow and technical explanations;
+- the application workflow and technical notes;
 - a sanitized description of the local data model;
 - a high-level explanation of correction-to-wheel mapping.
 
@@ -37,6 +37,6 @@ The repository does not publish:
 
 ## Evidence rule
 
-Public wording must remain traceable to the reviewed material or explicit developer confirmation.
+Public claims must remain traceable to reviewed project material or confirmed first-hand project facts.
 
-The portfolio describes the verified behavior and design without recreating or publishing proprietary source material that is not available as a reviewed text export.
+Where proprietary source material is not suitable for publication, the portfolio describes the verified behavior and design without recreating or exposing the underlying private project files.
