@@ -1,6 +1,6 @@
 # Industrial Gas Meter Calibration Software (G4/G6)
 
-Professional desktop application developed in-house at **AMC (later SAIEG — Sonelgaz Group)** for the calibration of **Sagem G4 and G6 gas meters** on an existing metrological test bench.
+Professional desktop application developed in-house at **EN-AMC (later SAIEG — Sonelgaz Group)** for the calibration of **Sagem G4 and G6 gas meters** on an existing metrological test bench.
 
 After the previous bench software became unusable, I designed and developed a replacement application that restored software-assisted calibration on that station. I also simplified the operator workflow by bringing the main data-entry, calculation, result-display and save/reset steps together on a single working screen instead of requiring repeated navigation across several windows.
 
@@ -10,7 +10,7 @@ After the previous bench software became unusable, I designed and developed a re
 
 | Area | Details |
 |---|---|
-| Professional context | AMC (later SAIEG — Sonelgaz Group) |
+| Professional context | EN-AMC (later SAIEG — Sonelgaz Group) |
 | Application | Windows desktop calibration software |
 | My role | Application design and development |
 | Technologies | WINDEV / WLanguage, Microsoft Access |
