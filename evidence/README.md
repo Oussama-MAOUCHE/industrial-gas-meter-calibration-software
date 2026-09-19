@@ -12,7 +12,7 @@ Reviewed material includes:
 - the local Microsoft Access database;
 - the gear-wheel correction spreadsheet;
 - project backup/history artifacts;
-- confirmed project context, authorship, correction-algorithm responsibility, and first-hand testing/validation context.
+- confirmed project context, authorship, correction-algorithm responsibility, and first-hand testing and in-use verification context.
 
 ## Public evidence
 
@@ -37,6 +37,6 @@ The repository does not publish:
 
 ## Documentation basis
 
-The workflow and technical description in this repository are based on the reviewed project material and first-hand project context. The description of developer-led functional testing and operational validation is historical first-hand context; no separate formal test plan or execution log is published here.
+The workflow and technical description in this repository are based on the reviewed project material and first-hand project context. The description of developer-led functional testing and in-use verification is historical first-hand context; no separate formal test plan or execution log is published here.
 
 Proprietary source files and raw operational data remain private.
