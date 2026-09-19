@@ -12,7 +12,7 @@ After the previous bench software became unusable, I designed and developed a re
 |---|---|
 | Professional context | EN-AMC (later SAIEG — Sonelgaz Group) |
 | Application | Windows desktop calibration software |
-| My role | Application design, development, functional testing and operational validation |
+| My role | Application design, development, developer-led functional testing and in-use verification |
 | Technologies | WINDEV / WLanguage, Microsoft Access |
 | Meter variants | Sagem G4 and G6 |
 | Main outcome | Restored the affected bench workflow and simplified the operator process |
@@ -34,28 +34,19 @@ I independently designed and developed the application, including:
 - visual and numeric presentation of results;
 - automatic serial-number progression with manual adjustment when needed;
 - local storage for calibration history and related operational data;
-- developer-led functional testing and validation of the application before and during operational use.
+- developer-led functional testing of the implemented calibration workflow and verification during bench use.
 
 I worked with the plant technical department to understand the calibration process and also used technical input from a visiting engineer representing the meter supplier/manufacturer.
 
-## Testing and validation
+## Testing and verification
 
-I tested the application throughout development and when putting it into use on the calibration bench. This was developer-led testing rather than a separate independent QA campaign.
+I functionally tested the application I developed as part of bringing it into use on the calibration bench. This was developer-led testing, not a separate independent QA campaign.
 
-The checks focused on the end-to-end operator workflow, including:
+The testing covered the implemented workflow represented in the surviving project material: entering meter and serial-number data and bench readings, calculating the error and correction guidance, presenting the result, saving the operation, and resetting for the next cycle. I also verified the G4 and G6 variants used for the intended bench workflow.
 
-- meter and serial-number data entry;
-- Qmax and 0.2 Qmax reading entry;
-- error/correction calculations;
-- mapping calculated ranges to the expected gear-wheel reference;
-- numeric and visual result presentation;
-- save/history behavior;
-- reset and preparation for the next calibration cycle;
-- the G4 and G6 application variants used for the intended bench workflow.
+The application was then used on the bench, providing practical confirmation that it supported the required operator process.
 
-Operational use of the replacement application provided additional validation that the software supported the required calibration process.
-
-No separate formal test plan or execution log is published in this repository. The testing description is based on first-hand project context together with the surviving application artifacts.
+No separate formal test plan or execution log is published in this repository. This testing description is based on first-hand project context together with the surviving application artifacts.
 
 ## How the application worked
 
